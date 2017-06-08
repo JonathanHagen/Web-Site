@@ -1,0 +1,309 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background: #F5F5F5;
+	color: #67727A;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2.5%;
+	color: #595959;
+}
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	padding: 0% 0;
+	font-weight: 400;
+	color: #595959;
+	margin: 0 auto;
+	max-width: 75%;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+	font-size: 100%;
+	line-height: 150%;
+	padding-bottom: 6%;
+	padding-top: 2.5%;
+	text-indent: 4%;
+	text-align: justify;
+	margin: 0 auto;
+	max-width: 75%;
+}
+.banner-inner img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.inner-wrapper-2 img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.inner-wrapper-3 img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.inner-wrapper-4 img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.Introduction {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 1%;
+}
+.College {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 1%;
+}
+.inner-wrapper-1 {
+	float: left;
+	margin: 0 auto;
+	width: 100%
+}
+.inner-wrapper-2 {
+	float: left;
+	margin: 0 auto;
+	width: 100%
+}
+.inner-wrapper-3 {
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+}
+.inner-wrapper-4 {
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.banner-resume img {
+	display: block;
+	width: 570px;
+	height: 795px;
+	margin: auto;	
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-top: 2.5%;
+}
+
+nav {
+	width: 100%;
+	z-index: 99;
+	position: fixed;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: rgba(45, 45, 45, 0.35)
+}
+nav li {
+	font-weight: bold;
+	list-style-type: none;
+	float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color: #262626;
+}
+/*
+.social {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #262626;
+}
+.social li {
+	float: left;
+}
+.social li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+*/
+
+.download {
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.download a {
+	border-bottom: solid 1.2px #595959;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	color: #595959;
+}
+
+.download a:hover {
+	background-color: #e6e6e6;
+}
+
+#github {
+	display: block;
+	margin: 0px 0px 0px -40px;
+}
+
+#github p {
+	text-align: center;
+}
+
+.second {
+	background-color: #d9d9d9;
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+}
+.second p {
+	text-align: right;
+}
+/*iframe {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	width: 850px;
+	height: 850px;
+}
+*/
+
+/*---------CONTACT FORM--------------*/
+form[name='contactform'] {
+  display: block;
+  margin: 0 auto;
+  width: 650px;
+  padding-top: 2.5%;
+}
+
+input[type='text'] {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875em;
+  width: 100%;
+  height: 50px;
+
+  margin: 0px 0px 0px -1.5px;
+/*  padding: 5px; */
+
+  background: transparent; 
+  outline: none;
+  color: #726659;
+  
+  border-bottom: solid 1.2px #b3aca7;
+}
+
+input:hover {
+  background: #e6e6e6;
+  color: #726659;
+}
+
+textarea[name='message'] {		
+  width: 100%;
+  height: 110px;
+/*  padding: 5px; */
+  margin: 10px 0px 0px -1.5px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875em;
+  
+  border-bottom: solid 1.2px #b3aca7;
+}
+
+textarea:hover {
+  background: #e6e6e6;
+  color:  #726659; 
+}
+
+#submit {
+  width: 100%;
+  
+  margin: -5px 0px 0px 0px;
+  padding: 15px;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875em;
+  color: #595959;
+  background: transparent;
+  
+  outline: none;
+  cursor: pointer;
+  
+  border: none;
+}
+
+#submit:hover {
+  background: #b3ff1a; /* Lime Green */
+  color: #595959;
+}
+
+/*---------- MEDIA ------------*/
+@media screen and (max-width: 768px) {
+	h2 {
+		font-size: 150%;
+	}
+	h3 {
+		font-size: 125%;
+	}
+	p {
+		font-size: 80%;
+	}
+	nav li a {
+		padding: 10px;
+	}
+	.banner-inner img {
+	max-width: 100%; /*add height*/
+	max-height: 100%;	/*ADD OTHER IMGS*/
+	/* transform: translateX(-45%); */
+	/* CENTER IMG */
+	}
+	.Introduction {
+		width: auto;
+		max-width: 100%;
+	}
+	.College {
+		width: auto;
+		max-width: 100%;
+	}
+	iframe {
+		width: 100%;
+		height: 2500px;
+	}
+	.banner-resume img {
+		width: 75%;
+		height: 75%;
+	}
+	form[name='contactform'] {
+		width: 80%;
+	}
+	#github {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	}
+}
